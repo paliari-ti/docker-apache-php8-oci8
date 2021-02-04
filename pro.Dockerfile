@@ -1,4 +1,4 @@
-FROM php:8.0-rc-apache
+FROM php:8.0.1-apache
 
 LABEL maintainer="Daniel Fernando Lourusso <dflourusso@gmail.com>"
 
