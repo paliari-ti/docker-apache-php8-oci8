@@ -6,6 +6,7 @@ Docker image with apache, PHP 8 and oci8
 ### Versioning
 | Docker Tag        | Apache Version | PHP Version | Debian Version |
 |-------------------|----------------|-------------|----------------|
+| 1.2.0-pro         | 2.4.38         | 8.0.*       | GNU/Linux 10   |
 | 1.1.0-pro         | 2.4.38         | 8.0.1       | GNU/Linux 10   |
 | 1.1.0-dev         | 2.4.38         | 8.0.1       | GNU/Linux 10   |
 | 1.1.0-dev-xdebug  | 2.4.38         | 8.0.1       | GNU/Linux 10   |
@@ -19,7 +20,7 @@ Docker image with apache, PHP 8 and oci8
 To pull from docker hub:
 
 ```
-docker pull paliari/apache-php8-oci8:1.1.0-dev
+docker pull paliari/apache-php8-oci8:1.2.0-dev
 ```
 
 ### Running
@@ -27,7 +28,7 @@ docker pull paliari/apache-php8-oci8:1.1.0-dev
 Run the container:
 
 ```
-docker container run -p 80:80 -v $(pwd):/var/www/html -d paliari/apache-ssl-php8-oci8:1.1.0-dev
+docker container run -p 80:80 -v $(pwd):/var/www/html -d paliari/apache-ssl-php8-oci8:1.2.0-dev
 ```
 
 Author

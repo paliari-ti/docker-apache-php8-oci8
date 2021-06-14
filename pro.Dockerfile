@@ -1,6 +1,6 @@
-FROM php:8.0.1-apache
+FROM php:8.0-apache
 
-LABEL maintainer="Daniel Fernando Lourusso <dflourusso@gmail.com>"
+LABEL maintainer="Marcos A Paliari <marcos@paliari.com.br>"
 
 ADD oracle/instantclient-basic-linux.x64-12.2.0.1.0.tar.gz /usr/local
 ADD oracle/instantclient-sdk-linux.x64-12.2.0.1.0.tar.gz /usr/local
@@ -20,6 +20,7 @@ RUN apt-get update && apt-get -y install libzip-dev \
   && docker-php-ext-configure gd --with-freetype --with-jpeg \
   && docker-php-ext-install gd \
   && docker-php-ext-install zip \
+  && docker-php-ext-install sockets \
   && apt-get install -y imagemagick \
   && apt-get purge -y --auto-remove \
   && apt-get clean -y \
