@@ -1,4 +1,4 @@
-FROM paliari/apache-php8-oci8:1.1.0-pro
+FROM paliari/apache-php8-oci8:1.2.0-pro
 
 COPY php/vars-dev.ini /usr/local/etc/php/conf.d/vars.ini
 
