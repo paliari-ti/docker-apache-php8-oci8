@@ -21,7 +21,7 @@ Docker image with apache, PHP 8 and oci8
 To pull from docker hub:
 
 ```
-docker pull paliari/apache-php8-oci8:1.2.0-dev
+docker pull paliari/apache-php8-oci8:1.3.0-dev
 ```
 
 ### Running
