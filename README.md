@@ -8,6 +8,7 @@ Docker image with apache, PHP 8 and oci8
 |-------------------|----------------|-------------|----------------|
 | 1.3.0-pro         | 2.4.38         | 8.1.*       | GNU/Linux 10   |
 | 1.2.0-pro         | 2.4.38         | 8.0.*       | GNU/Linux 10   |
+| 1.2.0-dev-pcov    | 2.4.38         | 8.0.*       | GNU/Linux 10   |
 | 1.1.0-pro         | 2.4.38         | 8.0.1       | GNU/Linux 10   |
 | 1.1.0-dev         | 2.4.38         | 8.0.1       | GNU/Linux 10   |
 | 1.1.0-dev-xdebug  | 2.4.38         | 8.0.1       | GNU/Linux 10   |
